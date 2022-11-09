@@ -1,0 +1,150 @@
+@font-face {
+    font-family: featureFont;
+    src: url(CorporateSSCRegular.otf);
+}
+
+body{
+    background-color: #003ecb;
+}
+
+.container{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
+.navBar{
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    justify-self: flex-start;
+    height: 7.4%;
+    align-items: center;
+}
+
+.logo{
+    padding-left: 10%;
+    left:0;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+.menu{
+    right:0;
+    padding-right: 10%;
+    position: absolute;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.yellowImg{
+    padding: 1%;
+    left:0;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.center{
+    display: flex;
+    height: 79.46%;
+    width: 59.8%;
+    left: 16.6%;
+    position: relative;
+}
+
+.stuffInsideCenter{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.bottomLine{
+    display: flex;
+    height: 13.14%;
+    background-color: #333333;
+}
+
+.bottomText{
+    margin: auto;
+    color: aliceblue;
+    font-size: 2.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middleFeaturesTitle{
+    display: flex;
+    color:#9ebbfd;
+    font-size: 3.8vh;
+    font-family: featureFont;
+}
+.middleBigTitle{
+    display: flex;
+    color: white;
+    font-size: 3.8vw;
+    font-family: featureFont;
+    width: 79%;
+    padding-bottom: 2%;
+}
+
+.lightBlueBoxesInTheMiddle{
+    height: 28.4714%;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.lightBlueBox{
+    display: flex;
+    background-color: #114dd5;
+    flex-direction: column;
+    position: relative;
+    width: 28.471%;
+    margin-right: 7%;
+}
+.lightBlueBoxImg{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10%;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+.lightBlueBoxInfo{
+    display: flex;
+    color:#f2994a;
+    font-size: 2.55vh;
+    text-align: center;
+    font-family: featureFont;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.lightBlueBoxMore{
+    display: flex;
+    color:#f2994a;
+    font-size: 2.5vh;
+    align-self: center;
+    padding-top: 4%;
+    font-family: featureFont;
+}
+
+.microTitle{
+    color:#f2994a;
+    font-size: 3vh;
+    align-self: center;
+    font-family: featureFont;
+    padding: 1%;
+}
+
+.pc{
+    position: absolute;
+    right: -2%;
+    height: 45%;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
