@@ -32,6 +32,7 @@ body{
     left:0;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+    height: 3vh;
 }
 .menu{
     right:0;
@@ -39,6 +40,8 @@ body{
     position: absolute;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+    height: 3vh;
+
 }
 
 .yellowImg{
@@ -142,9 +145,11 @@ body{
 }
 
 .pc{
-    position: absolute;
-    right: -2%;
-    height: 45%;
+    top: -8%;
+    left: -11%;
+    position: relative;
+    height: 80%;
     -webkit-user-drag: none;
     -webkit-user-select: none;
+    display: flex;
 }
