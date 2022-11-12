@@ -135,6 +135,8 @@ body{
     align-self: center;
     padding-top: 4%;
     font-family: featureFont;
+    margin-top: auto;
+    padding: 2%;
 }
 
 .microTitle{
